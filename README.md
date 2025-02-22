@@ -31,7 +31,7 @@ Decoded image:
 
 ## How It Works
 - The secret image is compressed from 8bits to 2bits per channel
-- These bits are embedded into the original image, by replacing the 2 least significant bits, thus preserving its visual appearance.
+- These bits are embedded into the original image by replacing the 2 least significant bits, thus preserving its visual appearance.
 - The decoding process retrieves and scales the least significant bits back to their original range.
 
 ## Notes
