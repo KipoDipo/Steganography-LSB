@@ -1,6 +1,6 @@
 # Image Steganography
 
-This is a simple C++ program that implements image steganography by hiding one image within another using the least significant bits (LSB) method.
+This is a simple CLI C++ program that implements image steganography by hiding one image within another using the least significant bits (LSB) method.
 
 ## Features
 - Encode a secret image into a cover image
@@ -10,14 +10,14 @@ This is a simple C++ program that implements image steganography by hiding one i
 ### Encoding
 To encode a secret image into a cover image:
 ```sh
-./steganography encode <original.png> <secret.png>
+Steganography encode <original.png> <secret.png>
 ```
 This will generate an `result.png` image containing the hidden image inside the least significant bits of the original image.
 
 ### Decoding
 To extract the hidden image from an encoded image:
 ```sh
-./steganography decode <encoded.png>
+Ssteganography decode <encoded.png>
 ```
 This will generate a `decoded.png` image revealing the hidden content.
 
